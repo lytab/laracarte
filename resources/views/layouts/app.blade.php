@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link href="css/app.css"/>
-    <title>{{ config('app.name', 'Laracarte') }}</title>
+    <title>{{page_title($title)}}</title>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
    <style>
    body{font-family: 'Open Sans', sans-serif;}
@@ -18,6 +18,7 @@
    </style> 
 </head>
 <body>
+
    @include('layouts/partials/nav')
    <div class="clearfix"></div><br>
    @yield('content')
