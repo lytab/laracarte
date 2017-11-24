@@ -1,5 +1,5 @@
  <nav class="navbar navbar-expand-md navbar-dark static-top bg-dark">
-      <a class="navbar-brand" href="{{route('home_path')}}">Laracarte</a>
+      <a class="navbar-brand" href="{{route('home_path')}}">{{config('app.name')}}</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -26,14 +26,7 @@
               <a class="dropdown-item" target="_blank" href="http://laravel-news.com">Laravel News</a>
               <a class="dropdown-item" target="_blank" href="http://larachat.co">Larachat</a>
             </div>
-            <ul class="dropdown-menu">
-            <li><a target="_blank" href="http://laravel.com">Laravel.com</a></li>
-            <li><a target="_blank" href="http://laravel.io">Laravel.io</a></li>
-            <li><a target="_blank" href="http://laracasts.com">Laracasts</a></li>
-            <li><a target="_blank" href="http://larajobs.com">Larajobs</a></li>
-            <li><a target="_blank" href="http://laravel-news.com">Laravel News</a></li>
-            <li><a target="_blank" href="http://larachat.co">Larachat</a></li>
-          </ul>
+            
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#">Contact</a>
